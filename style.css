@@ -1,0 +1,155 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Navigation */
+header {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #64b5f6;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc80;
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #ff7e5f;
+    padding: 12px 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffcc80;
+    transform: scale(1.05);
+}
+
+/* Courses Section */
+#courses {
+    padding: 60px;
+    text-align: center;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: linear-gradient(135deg, #283048, #859398);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+.course a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ff7e5f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.course a:hover {
+    background: #feb47b;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background: linear-gradient(135deg, #16222A, #3A6073);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #000428, #004e92);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffcc80;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #ff7e5f;
+}
